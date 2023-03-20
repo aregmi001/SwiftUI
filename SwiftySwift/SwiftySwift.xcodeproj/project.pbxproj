@@ -44,7 +44,7 @@
 		C73BBFC529C8E76D002C6A86 /* SwiftySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73BBFC929C8E76D002C6A86 /* SwiftySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITests.swift; sourceTree = "<group>"; };
 		C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C73BBFD829C8E9CF002C6A86 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-1-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			children = (
 				C73BBFAE29C8E76A002C6A86 /* SwiftySwiftApp.swift */,
 				C73BBFB029C8E76A002C6A86 /* ContentView.swift */,
-				C73BBFD829C8E9CF002C6A86 /* MyPlayground.playground */,
+				C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */,
 				C73BBFB229C8E76C002C6A86 /* Assets.xcassets */,
 				C73BBFB429C8E76C002C6A86 /* Preview Content */,
 			);
