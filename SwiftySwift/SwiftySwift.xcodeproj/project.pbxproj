@@ -46,6 +46,7 @@
 		C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-1-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-4-5-6.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-7-8-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 			children = (
 				C73BBFAE29C8E76A002C6A86 /* SwiftySwiftApp.swift */,
 				C73BBFB029C8E76A002C6A86 /* ContentView.swift */,
+				C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */,
 				C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */,
 				C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */,
 				C73BBFB229C8E76C002C6A86 /* Assets.xcassets */,
