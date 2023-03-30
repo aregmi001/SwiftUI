@@ -18,6 +18,13 @@
 		C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62429D367980033DA2B /* GuessTheFlag.swift */; };
 		C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62629D3805C0033DA2B /* PracticeUI.swift */; };
 		C7FEB62929D390C80033DA2B /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62829D390C80033DA2B /* ViewsAndModifiers.swift */; };
+		C7FEB62B29D4904F0033DA2B /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62A29D4904F0033DA2B /* BetterRest.swift */; };
+		C7FEB63129D4A03E0033DA2B /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB63029D4A03E0033DA2B /* WordScramble.swift */; };
+		C7FEB63529D4B1650033DA2B /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7FEB63429D4B1650033DA2B /* start.txt */; };
+		C7FEB63829D4B1860033DA2B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB63629D4B1860033DA2B /* SleepCalculator.mlmodel */; };
+		C7FEB63929D4B1860033DA2B /* BetterRest.csv in Resources */ = {isa = PBXBuildFile; fileRef = C7FEB63729D4B1860033DA2B /* BetterRest.csv */; };
+		C7FEB63B29D4D6390033DA2B /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB63A29D4D6390033DA2B /* Animations.swift */; };
+		C7FEB63F29D4D9F10033DA2B /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB63E29D4D9F10033DA2B /* iExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,13 @@
 		C7FEB62429D367980033DA2B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		C7FEB62629D3805C0033DA2B /* PracticeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUI.swift; sourceTree = "<group>"; };
 		C7FEB62829D390C80033DA2B /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
+		C7FEB62A29D4904F0033DA2B /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		C7FEB63029D4A03E0033DA2B /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		C7FEB63429D4B1650033DA2B /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		C7FEB63629D4B1860033DA2B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		C7FEB63729D4B1860033DA2B /* BetterRest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetterRest.csv; sourceTree = "<group>"; };
+		C7FEB63A29D4D6390033DA2B /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		C7FEB63E29D4D9F10033DA2B /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,17 +121,18 @@
 		C73BBFAD29C8E76A002C6A86 /* SwiftySwift */ = {
 			isa = PBXGroup;
 			children = (
+				C7FEB63D29D4D9B90033DA2B /* Files */,
+				C7FEB63C29D4D9B40033DA2B /* Playgrounds */,
 				C73BBFAE29C8E76A002C6A86 /* SwiftySwiftApp.swift */,
 				C73BBFB029C8E76A002C6A86 /* ContentView.swift */,
 				C7FEB62629D3805C0033DA2B /* PracticeUI.swift */,
 				C7FEB62229D366C70033DA2B /* WeSplit.swift */,
 				C7FEB62429D367980033DA2B /* GuessTheFlag.swift */,
 				C7FEB62829D390C80033DA2B /* ViewsAndModifiers.swift */,
-				C7FEB5E929D139480033DA2B /* day-13-14.playground */,
-				C7FEB5E829CCE4550033DA2B /* day-10-11-12.playground */,
-				C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */,
-				C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */,
-				C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */,
+				C7FEB62A29D4904F0033DA2B /* BetterRest.swift */,
+				C7FEB63029D4A03E0033DA2B /* WordScramble.swift */,
+				C7FEB63A29D4D6390033DA2B /* Animations.swift */,
+				C7FEB63E29D4D9F10033DA2B /* iExpense.swift */,
 				C73BBFB229C8E76C002C6A86 /* Assets.xcassets */,
 				C73BBFB429C8E76C002C6A86 /* Preview Content */,
 			);
@@ -147,6 +162,28 @@
 				C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */,
 			);
 			path = SwiftySwiftUITests;
+			sourceTree = "<group>";
+		};
+		C7FEB63C29D4D9B40033DA2B /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C7FEB5E929D139480033DA2B /* day-13-14.playground */,
+				C7FEB5E829CCE4550033DA2B /* day-10-11-12.playground */,
+				C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */,
+				C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */,
+				C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */,
+			);
+			name = Playgrounds;
+			sourceTree = "<group>";
+		};
+		C7FEB63D29D4D9B90033DA2B /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FEB63729D4B1860033DA2B /* BetterRest.csv */,
+				C7FEB63629D4B1860033DA2B /* SleepCalculator.mlmodel */,
+				C7FEB63429D4B1650033DA2B /* start.txt */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FEB63929D4B1860033DA2B /* BetterRest.csv in Resources */,
 				C73BBFB629C8E76C002C6A86 /* Preview Assets.xcassets in Resources */,
+				C7FEB63529D4B1650033DA2B /* start.txt in Resources */,
 				C73BBFB329C8E76C002C6A86 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,12 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FEB63F29D4D9F10033DA2B /* iExpense.swift in Sources */,
 				C73BBFB129C8E76A002C6A86 /* ContentView.swift in Sources */,
 				C7FEB62329D366C70033DA2B /* WeSplit.swift in Sources */,
 				C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */,
 				C7FEB62929D390C80033DA2B /* ViewsAndModifiers.swift in Sources */,
 				C73BBFAF29C8E76A002C6A86 /* SwiftySwiftApp.swift in Sources */,
+				C7FEB62B29D4904F0033DA2B /* BetterRest.swift in Sources */,
+				C7FEB63B29D4D6390033DA2B /* Animations.swift in Sources */,
 				C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */,
+				C7FEB63829D4B1860033DA2B /* SleepCalculator.mlmodel in Sources */,
+				C7FEB63129D4A03E0033DA2B /* WordScramble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
