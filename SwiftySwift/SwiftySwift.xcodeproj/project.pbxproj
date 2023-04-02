@@ -14,6 +14,23 @@
 		C73BBFC029C8E76D002C6A86 /* SwiftySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFBF29C8E76D002C6A86 /* SwiftySwiftTests.swift */; };
 		C73BBFCA29C8E76D002C6A86 /* SwiftySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFC929C8E76D002C6A86 /* SwiftySwiftUITests.swift */; };
 		C73BBFCC29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */; };
+		C78D5A0529D66253005DE528 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0429D66253005DE528 /* ExpenseItem.swift */; };
+		C78D5A0729D6629C005DE528 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0629D6629C005DE528 /* Expenses.swift */; };
+		C78D5A0A29D66698005DE528 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0929D66698005DE528 /* AddView.swift */; };
+		C78D5A0D29D67F40005DE528 /* Moonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0C29D67F40005DE528 /* Moonshot.swift */; };
+		C7AE553F29D7399E00D5F5A1 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = C7AE553D29D7399E00D5F5A1 /* astronauts.json */; };
+		C7AE554029D7399E00D5F5A1 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = C7AE553E29D7399E00D5F5A1 /* missions.json */; };
+		C7AE554229D73A2500D5F5A1 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554129D73A2500D5F5A1 /* Astronaut.swift */; };
+		C7AE554429D73A9D00D5F5A1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554329D73A9D00D5F5A1 /* Bundle-Decodable.swift */; };
+		C7AE554629D73DFA00D5F5A1 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554529D73DFA00D5F5A1 /* Mission.swift */; };
+		C7AE554829D7442C00D5F5A1 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554729D7442C00D5F5A1 /* Color-Theme.swift */; };
+		C7AE554A29D74E8300D5F5A1 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554929D74E8300D5F5A1 /* MissionView.swift */; };
+		C7AE554C29D756F800D5F5A1 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554B29D756F800D5F5A1 /* AstronautView.swift */; };
+		C7AE554F29D778FF00D5F5A1 /* CupcakeCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE554E29D778FF00D5F5A1 /* CupcakeCorner.swift */; };
+		C7AE555129D8A5E300D5F5A1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE555029D8A5E300D5F5A1 /* Order.swift */; };
+		C7AE555329D907EA00D5F5A1 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE555229D907EA00D5F5A1 /* AddressView.swift */; };
+		C7AE555529D9089400D5F5A1 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE555429D9089400D5F5A1 /* CheckoutView.swift */; };
+		C7AE555829D9292F00D5F5A1 /* Bookworm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE555729D9292F00D5F5A1 /* Bookworm.swift */; };
 		C7FEB62329D366C70033DA2B /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62229D366C70033DA2B /* WeSplit.swift */; };
 		C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62429D367980033DA2B /* GuessTheFlag.swift */; };
 		C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62629D3805C0033DA2B /* PracticeUI.swift */; };
@@ -56,6 +73,23 @@
 		C73BBFC929C8E76D002C6A86 /* SwiftySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITests.swift; sourceTree = "<group>"; };
 		C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-1-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C78D5A0429D66253005DE528 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		C78D5A0629D6629C005DE528 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		C78D5A0929D66698005DE528 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		C78D5A0C29D67F40005DE528 /* Moonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moonshot.swift; sourceTree = "<group>"; };
+		C7AE553D29D7399E00D5F5A1 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		C7AE553E29D7399E00D5F5A1 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		C7AE554129D73A2500D5F5A1 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		C7AE554329D73A9D00D5F5A1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		C7AE554529D73DFA00D5F5A1 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		C7AE554729D7442C00D5F5A1 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		C7AE554929D74E8300D5F5A1 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		C7AE554B29D756F800D5F5A1 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		C7AE554E29D778FF00D5F5A1 /* CupcakeCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner.swift; sourceTree = "<group>"; };
+		C7AE555029D8A5E300D5F5A1 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		C7AE555229D907EA00D5F5A1 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		C7AE555429D9089400D5F5A1 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		C7AE555729D9292F00D5F5A1 /* Bookworm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookworm.swift; sourceTree = "<group>"; };
 		C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-4-5-6.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-7-8-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7FEB5E829CCE4550033DA2B /* day-10-11-12.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-10-11-12.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -121,6 +155,9 @@
 		C73BBFAD29C8E76A002C6A86 /* SwiftySwift */ = {
 			isa = PBXGroup;
 			children = (
+				C7AE555629D9289A00D5F5A1 /* Bookworm */,
+				C7AE554D29D778EA00D5F5A1 /* CupcakeCorner */,
+				C78D5A0B29D67F1E005DE528 /* Moonshot */,
 				C7FEB63D29D4D9B90033DA2B /* Files */,
 				C7FEB63C29D4D9B40033DA2B /* Playgrounds */,
 				C73BBFAE29C8E76A002C6A86 /* SwiftySwiftApp.swift */,
@@ -132,7 +169,7 @@
 				C7FEB62A29D4904F0033DA2B /* BetterRest.swift */,
 				C7FEB63029D4A03E0033DA2B /* WordScramble.swift */,
 				C7FEB63A29D4D6390033DA2B /* Animations.swift */,
-				C7FEB63E29D4D9F10033DA2B /* iExpense.swift */,
+				C78D5A0829D662E1005DE528 /* iExpense */,
 				C73BBFB229C8E76C002C6A86 /* Assets.xcassets */,
 				C73BBFB429C8E76C002C6A86 /* Preview Content */,
 			);
@@ -162,6 +199,52 @@
 				C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */,
 			);
 			path = SwiftySwiftUITests;
+			sourceTree = "<group>";
+		};
+		C78D5A0829D662E1005DE528 /* iExpense */ = {
+			isa = PBXGroup;
+			children = (
+				C7FEB63E29D4D9F10033DA2B /* iExpense.swift */,
+				C78D5A0929D66698005DE528 /* AddView.swift */,
+				C78D5A0429D66253005DE528 /* ExpenseItem.swift */,
+				C78D5A0629D6629C005DE528 /* Expenses.swift */,
+			);
+			name = iExpense;
+			sourceTree = "<group>";
+		};
+		C78D5A0B29D67F1E005DE528 /* Moonshot */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE553D29D7399E00D5F5A1 /* astronauts.json */,
+				C7AE553E29D7399E00D5F5A1 /* missions.json */,
+				C78D5A0C29D67F40005DE528 /* Moonshot.swift */,
+				C7AE554929D74E8300D5F5A1 /* MissionView.swift */,
+				C7AE554B29D756F800D5F5A1 /* AstronautView.swift */,
+				C7AE554129D73A2500D5F5A1 /* Astronaut.swift */,
+				C7AE554729D7442C00D5F5A1 /* Color-Theme.swift */,
+				C7AE554529D73DFA00D5F5A1 /* Mission.swift */,
+				C7AE554329D73A9D00D5F5A1 /* Bundle-Decodable.swift */,
+			);
+			name = Moonshot;
+			sourceTree = "<group>";
+		};
+		C7AE554D29D778EA00D5F5A1 /* CupcakeCorner */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE554E29D778FF00D5F5A1 /* CupcakeCorner.swift */,
+				C7AE555429D9089400D5F5A1 /* CheckoutView.swift */,
+				C7AE555229D907EA00D5F5A1 /* AddressView.swift */,
+				C7AE555029D8A5E300D5F5A1 /* Order.swift */,
+			);
+			name = CupcakeCorner;
+			sourceTree = "<group>";
+		};
+		C7AE555629D9289A00D5F5A1 /* Bookworm */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE555729D9292F00D5F5A1 /* Bookworm.swift */,
+			);
+			name = Bookworm;
 			sourceTree = "<group>";
 		};
 		C7FEB63C29D4D9B40033DA2B /* Playgrounds */ = {
@@ -293,6 +376,8 @@
 				C7FEB63929D4B1860033DA2B /* BetterRest.csv in Resources */,
 				C73BBFB629C8E76C002C6A86 /* Preview Assets.xcassets in Resources */,
 				C7FEB63529D4B1650033DA2B /* start.txt in Resources */,
+				C7AE553F29D7399E00D5F5A1 /* astronauts.json in Resources */,
+				C7AE554029D7399E00D5F5A1 /* missions.json in Resources */,
 				C73BBFB329C8E76C002C6A86 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,15 +403,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78D5A0A29D66698005DE528 /* AddView.swift in Sources */,
+				C78D5A0D29D67F40005DE528 /* Moonshot.swift in Sources */,
+				C7AE555529D9089400D5F5A1 /* CheckoutView.swift in Sources */,
 				C7FEB63F29D4D9F10033DA2B /* iExpense.swift in Sources */,
 				C73BBFB129C8E76A002C6A86 /* ContentView.swift in Sources */,
 				C7FEB62329D366C70033DA2B /* WeSplit.swift in Sources */,
+				C7AE555329D907EA00D5F5A1 /* AddressView.swift in Sources */,
+				C7AE555829D9292F00D5F5A1 /* Bookworm.swift in Sources */,
+				C78D5A0729D6629C005DE528 /* Expenses.swift in Sources */,
+				C7AE554629D73DFA00D5F5A1 /* Mission.swift in Sources */,
+				C7AE554C29D756F800D5F5A1 /* AstronautView.swift in Sources */,
+				C7AE554429D73A9D00D5F5A1 /* Bundle-Decodable.swift in Sources */,
 				C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */,
+				C7AE554A29D74E8300D5F5A1 /* MissionView.swift in Sources */,
 				C7FEB62929D390C80033DA2B /* ViewsAndModifiers.swift in Sources */,
 				C73BBFAF29C8E76A002C6A86 /* SwiftySwiftApp.swift in Sources */,
 				C7FEB62B29D4904F0033DA2B /* BetterRest.swift in Sources */,
+				C78D5A0529D66253005DE528 /* ExpenseItem.swift in Sources */,
+				C7AE554829D7442C00D5F5A1 /* Color-Theme.swift in Sources */,
+				C7AE554229D73A2500D5F5A1 /* Astronaut.swift in Sources */,
+				C7AE554F29D778FF00D5F5A1 /* CupcakeCorner.swift in Sources */,
 				C7FEB63B29D4D6390033DA2B /* Animations.swift in Sources */,
 				C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */,
+				C7AE555129D8A5E300D5F5A1 /* Order.swift in Sources */,
 				C7FEB63829D4B1860033DA2B /* SleepCalculator.mlmodel in Sources */,
 				C7FEB63129D4A03E0033DA2B /* WordScramble.swift in Sources */,
 			);

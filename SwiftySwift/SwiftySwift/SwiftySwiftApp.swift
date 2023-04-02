@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftySwiftApp: App {
     var body: some Scene {
         WindowGroup {
-            Animations()
+            Bookworm()
         }
     }
 }

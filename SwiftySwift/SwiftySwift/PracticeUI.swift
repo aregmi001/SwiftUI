@@ -240,3 +240,312 @@ struct WordScramble11: View {
         }
     }
 }
+
+
+
+struct UserStruct {
+    var firstName = "Bilbo"
+    var lastName = "Baggins"
+}
+
+struct UserToPersist: Codable {
+    let firstName: String
+    let lastName: String
+}
+
+class UserClass : ObservableObject {
+    @Published var firstName = "Bilbo"
+    @Published var lastName = "Baggins"
+}
+
+struct SecondView: View {
+    @Environment(\.dismiss) var dismissRR
+    let name: String
+
+    var body: some View {
+        Text("Hello, \(name)!")
+        Button("Dismiss") {
+            dismissRR()
+        }
+    }
+}
+
+struct iExpense22: View {
+
+    @State private var userStructState = UserStruct()
+    @StateObject private var userClassStateObj = UserClass()
+    @State private var isPresentSheet = false
+
+    @State private var numbers = [Int]()
+    //@State private var currentNumber = UserDefaults.standard.integer(forKey: "tapcount")
+
+    @AppStorage("currentNumber") private var currentNumber = 0
+
+    @State private var user = UserToPersist(firstName: "Taylor", lastName: "Swift")
+
+
+    var body: some View {
+
+        NavigationView {
+
+            VStack {
+                VStack {
+                    Text("( Struct State property )  \(userStructState.firstName) \(userStructState.lastName).")
+
+                    TextField("First name", text: $userStructState.firstName)
+                    TextField("Last name", text: $userStructState.lastName)
+                }
+                .padding()
+                .background(.red)
+                .foregroundColor(.white)
+
+                VStack {
+                    Text("( Class StateObject property )  \(userClassStateObj.firstName) \(userClassStateObj.lastName).")
+
+                    TextField("First name", text: $userClassStateObj.firstName)
+                    TextField("Last name", text: $userClassStateObj.lastName)
+                }
+                .padding()
+                .background(.blue)
+                .foregroundColor(.white)
+
+
+                VStack {
+                    Text("( Testing Sheets )  \(userClassStateObj.firstName) \(userClassStateObj.lastName).")
+
+                    Button("Launch Sheet") {
+                        isPresentSheet.toggle()
+                    }
+                    .clipShape(RoundedRectangle(cornerRadius: 5))
+                }
+                .padding()
+                .background(.gray)
+                .foregroundColor(.white)
+                .sheet(isPresented: $isPresentSheet) {
+                    // return the view that will show
+                    SecondView(name: "Amie")
+                }
+
+                VStack {
+                    Text("( Testing List )")
+
+                    Button("Add To Row") {
+                        numbers.append(currentNumber)
+                        currentNumber += 1
+
+                        //UserDefaults.standard.set(currentNumber, forKey: "tapcount")
+                    }
+                    List {
+                        ForEach(numbers, id: \.self) {
+                            Text("\($0)")
+                        }
+                        .onDelete(perform: removeRows)
+                    }
+
+                    Button("Save User") {
+                        let encoder = JSONEncoder()
+
+                        if let data = try? encoder.encode(user) {
+                            UserDefaults.standard.set(data, forKey: "UserData")
+                        }
+                    }
+                }
+                .toolbar {
+                    EditButton()
+                }
+            }
+        }
+    }
+
+    func removeRows(at offsets: IndexSet) {
+        numbers.remove(atOffsets: offsets)
+    }
+}
+
+
+
+struct ListViewRow : View {
+    private var rowIndex = 0
+    private var rowText = ""
+    var body: some View {
+        Text("\(rowIndex) : \(rowText)")
+    }
+
+    init(rowIndex: Int , rowText: String = "") {
+        self.rowIndex = rowIndex
+        self.rowText = rowText
+        print("Row \(rowIndex) Created")
+    }
+}
+
+struct Moonshot33: View {
+
+//    let layout = [
+//        GridItem(.fixed(80)),
+//        GridItem(.fixed(80)),
+//        GridItem(.fixed(80))
+//    ]
+
+    let layout = [
+        GridItem(.adaptive(minimum: 80, maximum: 120)),
+        GridItem(.adaptive(minimum: 80, maximum: 120)),
+        GridItem(.adaptive(minimum: 80, maximum: 120))
+    ]
+
+    var body: some View {
+
+//        GeometryReader { item in
+//            Image("tor")
+//                .resizable()
+//                .aspectRatio(contentMode: .fit)
+//                .frame(width: 300, height: 300)
+//                .frame(width: item.size.width, height: item.size.height)
+//        }
+
+        NavigationView {
+
+            VStack {
+                ScrollView {
+                    LazyVStack {
+                        ForEach(0..<100) {rowIndex in
+
+                            NavigationLink {
+                                Text("Detail view for row \(rowIndex)")
+                            } label: {
+                                ListViewRow(rowIndex: rowIndex, rowText: "Sample Row")
+                            }
+                        }
+                    }
+                }
+                .navigationTitle("Hello Scroll")
+                .background(.red)
+
+                ScrollView {
+                    LazyVGrid(columns: layout) {
+                        ForEach(0..<1000) {rowIndex in
+                            Text("Item \(rowIndex)")
+                        }
+                    }
+                }
+                .navigationTitle("Grid Scroll")
+                .background(.blue)
+            }
+        }
+    }
+}
+
+struct Response99: Codable {
+    var results : [Result99]
+}
+
+struct Result99: Codable {
+    var trackId: Int
+    var trackName : String
+    var collectionName: String
+}
+
+//final class User : ObservableObject, Codable {
+//
+//    enum CodingKeys : CodingKey {
+//        case name
+//    }
+//
+//    @Published var name: String = "Taylor Swift"
+//
+//    required init(from decoder: Decoder) throws {
+//        let container = try decoder.container(keyedBy: CodingKeys.self)
+//        name = try container.decode(String.self, forKey: .name)
+//    }
+//
+//    func encode(to encoder: Encoder) throws {
+//        var container = encoder.container(keyedBy: CodingKeys.self)
+//        try container.encodeIfPresent(name, forKey: .name)
+//    }
+//}
+
+struct CupcakeCorner55: View {
+
+    @State private var results = [Result99]()
+    @State private var username = ""
+    @State private var email = ""
+
+    var disableForm: Bool {
+        username.count < 5 || email.count < 5
+    }
+
+    var body: some View {
+
+        VStack {
+
+            Form {
+                Section {
+                    TextField("Username", text: $username)
+                    TextField("Email", text: $email)
+                }
+
+                Section {
+                    Button("Create account") {
+                        print("Creating account…")
+                    }
+                    .disabled(disableForm)
+                }
+            }
+
+
+            AsyncImage(url: URL(string: "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg")) { phase in
+
+
+                if let image = phase.image {
+                    image
+                        .resizable()
+                        .scaledToFit()
+                } else if phase.error != nil {
+                    Text("There was an error")
+                } else {
+                    ProgressView()
+                }
+            }
+
+//                phase
+//                    .resizable()
+//                    .scaledToFit()
+
+//            } placeholder: {
+//                // Color.red
+//                ProgressView()
+//            }
+//            .frame(width: 300, height: 300)
+
+            List(results, id: \.trackId) { item in
+
+                VStack(alignment: .leading) {
+
+                    Text(item.trackName)
+                        .font(.headline)
+                    Text(item.collectionName)
+                }
+            }
+            .task {
+                await loadData()
+            }
+        }
+    }
+
+    func loadData() async {
+        guard let url = URL(string: "https://itunes.apple.com/search?term=taylor+swift&entity=song") else {
+            print ("invalid URL")
+            return
+        }
+
+        do {
+            let (data, _) = try await URLSession.shared.data(from: url)
+            // more code to come
+
+            if let decodedResponse = try?  JSONDecoder().decode(Response99.self, from: data) {
+                results = decodedResponse.results
+            }
+        } catch {
+            print ("Invalid data ")
+        }
+    }
+}
