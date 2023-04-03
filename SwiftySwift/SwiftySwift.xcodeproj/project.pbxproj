@@ -46,6 +46,9 @@
 		C7AE557829DA73BC00D5F5A1 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE557429DA73BC00D5F5A1 /* Country+CoreDataProperties.swift */; };
 		C7AE557929DA73BC00D5F5A1 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE557529DA73BC00D5F5A1 /* Candy+CoreDataClass.swift */; };
 		C7AE557A29DA73BC00D5F5A1 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE557629DA73BC00D5F5A1 /* Candy+CoreDataProperties.swift */; };
+		C7AE558129DA7D9400D5F5A1 /* Instafilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE558029DA7D9400D5F5A1 /* Instafilter.swift */; };
+		C7AE558329DB490300D5F5A1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE558229DB490300D5F5A1 /* ImagePicker.swift */; };
+		C7AE558529DB741300D5F5A1 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE558429DB741300D5F5A1 /* ImageSaver.swift */; };
 		C7FEB62329D366C70033DA2B /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62229D366C70033DA2B /* WeSplit.swift */; };
 		C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62429D367980033DA2B /* GuessTheFlag.swift */; };
 		C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62629D3805C0033DA2B /* PracticeUI.swift */; };
@@ -120,6 +123,10 @@
 		C7AE557429DA73BC00D5F5A1 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C7AE557529DA73BC00D5F5A1 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C7AE557629DA73BC00D5F5A1 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7AE558029DA7D9400D5F5A1 /* Instafilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instafilter.swift; sourceTree = "<group>"; };
+		C7AE558229DB490300D5F5A1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C7AE558429DB741300D5F5A1 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		C7AE558629DB75A400D5F5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-4-5-6.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-7-8-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7FEB5E829CCE4550033DA2B /* day-10-11-12.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-10-11-12.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -185,6 +192,8 @@
 		C73BBFAD29C8E76A002C6A86 /* SwiftySwift */ = {
 			isa = PBXGroup;
 			children = (
+				C7AE558629DB75A400D5F5A1 /* Info.plist */,
+				C7AE557F29DA7D8200D5F5A1 /* Instafilter */,
 				C7AE556629DA5F7700D5F5A1 /* Bookworm_CoreData */,
 				C7AE555629D9289A00D5F5A1 /* Bookworm */,
 				C7AE554D29D778EA00D5F5A1 /* CupcakeCorner */,
@@ -298,6 +307,16 @@
 				C7AE557129DA6E5B00D5F5A1 /* FilteredList.swift */,
 			);
 			name = Bookworm_CoreData;
+			sourceTree = "<group>";
+		};
+		C7AE557F29DA7D8200D5F5A1 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE558029DA7D9400D5F5A1 /* Instafilter.swift */,
+				C7AE558429DB741300D5F5A1 /* ImageSaver.swift */,
+				C7AE558229DB490300D5F5A1 /* ImagePicker.swift */,
+			);
+			name = Instafilter;
 			sourceTree = "<group>";
 		};
 		C7FEB63C29D4D9B40033DA2B /* Playgrounds */ = {
@@ -463,6 +482,7 @@
 				C7AE556129D9C83E00D5F5A1 /* RatingView.swift in Sources */,
 				C7AE555F29D9C19A00D5F5A1 /* AddBookView.swift in Sources */,
 				C7AE557229DA6E5B00D5F5A1 /* FilteredList.swift in Sources */,
+				C7AE558529DB741300D5F5A1 /* ImageSaver.swift in Sources */,
 				C7AE555529D9089400D5F5A1 /* CheckoutView.swift in Sources */,
 				C7AE556A29DA608200D5F5A1 /* Movie+CoreDataProperties.swift in Sources */,
 				C7AE556D29DA6DAB00D5F5A1 /* Singer+CoreDataClass.swift in Sources */,
@@ -486,6 +506,7 @@
 				C7AE554829D7442C00D5F5A1 /* Color-Theme.swift in Sources */,
 				C7AE556329D9E38F00D5F5A1 /* EmojiRatingView.swift in Sources */,
 				C7AE554229D73A2500D5F5A1 /* Astronaut.swift in Sources */,
+				C7AE558329DB490300D5F5A1 /* ImagePicker.swift in Sources */,
 				C7AE555D29D9BC1200D5F5A1 /* DataController.swift in Sources */,
 				C7AE556529D9E60A00D5F5A1 /* DetailView.swift in Sources */,
 				C7AE554F29D778FF00D5F5A1 /* CupcakeCorner.swift in Sources */,
@@ -495,6 +516,7 @@
 				C7AE555129D8A5E300D5F5A1 /* Order.swift in Sources */,
 				C7FEB63829D4B1860033DA2B /* SleepCalculator.mlmodel in Sources */,
 				C7AE557A29DA73BC00D5F5A1 /* Candy+CoreDataProperties.swift in Sources */,
+				C7AE558129DA7D9400D5F5A1 /* Instafilter.swift in Sources */,
 				C7AE556929DA608200D5F5A1 /* Movie+CoreDataClass.swift in Sources */,
 				C7FEB63129D4A03E0033DA2B /* WordScramble.swift in Sources */,
 			);
@@ -658,6 +680,8 @@
 				DEVELOPMENT_TEAM = 66839FZD6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftySwift/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Hola Photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -688,6 +712,8 @@
 				DEVELOPMENT_TEAM = 66839FZD6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftySwift/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Hola Photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

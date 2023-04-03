@@ -14,7 +14,7 @@ struct SwiftySwiftApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Bookworm()
+            Instafilter()
                 .environment(\.managedObjectContext, dataController.coreDataContainer.viewContext)
         }
     }

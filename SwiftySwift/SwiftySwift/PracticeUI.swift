@@ -549,3 +549,78 @@ struct CupcakeCorner55: View {
         }
     }
 }
+
+import CoreImage
+import CoreImage.CIFilterBuiltins
+
+struct Instafilter88: View {
+
+    @State private var image: Image?
+
+    var body: some View {
+
+        VStack {
+            image?
+                .resizable()
+                .scaledToFit()
+        }
+        .onAppear(perform: loadImage)
+    }
+
+    func loadImage() {
+        //image = Image("aldrin")
+        guard let inputImage = UIImage(named: "aldrin") else { return }
+        let beginImage = CIImage(image: inputImage)
+
+        let context = CIContext()
+
+        let currentFilter = CIFilter.sepiaTone()
+
+        currentFilter.inputImage = beginImage
+        currentFilter.intensity = 1
+
+        guard let outputImage = currentFilter.outputImage else {return}
+
+        if let cgImg = context.createCGImage(outputImage, from: outputImage.extent) {
+            let uiImage = UIImage(cgImage: cgImg)
+
+            image = Image(uiImage: uiImage)
+        }
+    }
+}
+
+struct Instafilter99: View {
+
+    @State private var image: Image?
+    @State private var inputImage: UIImage?
+    @State private var showingImagePicker = false
+
+    var body: some View {
+        VStack{
+            image?
+                .resizable()
+                .scaledToFit()
+
+            Button("Select Image") {
+                showingImagePicker = true
+            }
+
+            Button("Save Image") {
+                guard let inputImage = inputImage else { return }
+                let imageSaver = ImageSaver()
+                imageSaver.writeToPhotoAlbum(image: inputImage)
+            }
+        }
+        .sheet(isPresented: $showingImagePicker) {
+            ImagePicker(image: $inputImage)
+        }
+        .onChange(of: inputImage) { _ in
+            loadImage()
+        }
+    }
+
+    func loadImage() {
+        guard let inputImage = inputImage else { return }
+        image = Image(uiImage: inputImage)
+    }
+}
