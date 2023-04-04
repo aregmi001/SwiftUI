@@ -14,7 +14,7 @@ struct SwiftySwiftApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Instafilter()
+            BucketList()
                 .environment(\.managedObjectContext, dataController.coreDataContainer.viewContext)
         }
     }
