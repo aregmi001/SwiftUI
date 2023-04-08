@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C732B90229DE1D220042B318 /* HotProspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732B90129DE1D220042B318 /* HotProspects.swift */; };
+		C732B90429DF36890042B318 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732B90329DF36890042B318 /* ProspectsView.swift */; };
+		C732B90629DF368E0042B318 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732B90529DF368E0042B318 /* MeView.swift */; };
+		C732B90829DF387C0042B318 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732B90729DF387C0042B318 /* Prospect.swift */; };
 		C73BBFAF29C8E76A002C6A86 /* SwiftySwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFAE29C8E76A002C6A86 /* SwiftySwiftApp.swift */; };
 		C73BBFB129C8E76A002C6A86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFB029C8E76A002C6A86 /* ContentView.swift */; };
 		C73BBFB329C8E76C002C6A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73BBFB229C8E76C002C6A86 /* Assets.xcassets */; };
@@ -14,6 +18,16 @@
 		C73BBFC029C8E76D002C6A86 /* SwiftySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFBF29C8E76D002C6A86 /* SwiftySwiftTests.swift */; };
 		C73BBFCA29C8E76D002C6A86 /* SwiftySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFC929C8E76D002C6A86 /* SwiftySwiftUITests.swift */; };
 		C73BBFCC29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */; };
+		C77991BC29E0867100216411 /* LayoutAndGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991BB29E0867100216411 /* LayoutAndGeometry.swift */; };
+		C77991BF29E1064000216411 /* SnowSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991BE29E1064000216411 /* SnowSeeker.swift */; };
+		C77991C129E1065100216411 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = C77991C029E1065100216411 /* resorts.json */; };
+		C77991C329E106A300216411 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991C229E106A300216411 /* Resort.swift */; };
+		C77991C529E10A0C00216411 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991C429E10A0C00216411 /* WelcomeView.swift */; };
+		C77991C729E10BC100216411 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991C629E10BC100216411 /* ResortView.swift */; };
+		C77991C929E10C2400216411 /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991C829E10C2400216411 /* SkiDetailsView.swift */; };
+		C77991CB29E10C6C00216411 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991CA29E10C6C00216411 /* ResortDetailsView.swift */; };
+		C77991CD29E10EF700216411 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991CC29E10EF600216411 /* Facility.swift */; };
+		C77991CF29E1103400216411 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77991CE29E1103400216411 /* Favorites.swift */; };
 		C78D5A0529D66253005DE528 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0429D66253005DE528 /* ExpenseItem.swift */; };
 		C78D5A0729D6629C005DE528 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0629D6629C005DE528 /* Expenses.swift */; };
 		C78D5A0A29D66698005DE528 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78D5A0929D66698005DE528 /* AddView.swift */; };
@@ -55,6 +69,11 @@
 		C7AE559129DBD4CF00D5F5A1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE559029DBD4CE00D5F5A1 /* Result.swift */; };
 		C7AE559329DBD61100D5F5A1 /* BucketList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE559229DBD61100D5F5A1 /* BucketList-ViewModel.swift */; };
 		C7AE559529DBD77300D5F5A1 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE559429DBD77300D5F5A1 /* FileManager-DocumentsDirectory.swift */; };
+		C7AF157529DFA71F000FE195 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C7AF157429DFA71F000FE195 /* CodeScanner */; };
+		C7AF157829DFC362000FE195 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF157729DFC362000FE195 /* Flashzilla.swift */; };
+		C7AF157A29E06A44000FE195 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF157929E06A44000FE195 /* Card.swift */; };
+		C7AF157C29E06A5D000FE195 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF157B29E06A5D000FE195 /* CardView.swift */; };
+		C7AF157E29E0750F000FE195 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF157D29E0750F000FE195 /* EditCards.swift */; };
 		C7FEB62329D366C70033DA2B /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62229D366C70033DA2B /* WeSplit.swift */; };
 		C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62429D367980033DA2B /* GuessTheFlag.swift */; };
 		C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB62629D3805C0033DA2B /* PracticeUI.swift */; };
@@ -86,6 +105,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C732B90129DE1D220042B318 /* HotProspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspects.swift; sourceTree = "<group>"; };
+		C732B90329DF36890042B318 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		C732B90529DF368E0042B318 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		C732B90729DF387C0042B318 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		C73BBFAB29C8E76A002C6A86 /* SwiftySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73BBFAE29C8E76A002C6A86 /* SwiftySwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftApp.swift; sourceTree = "<group>"; };
 		C73BBFB029C8E76A002C6A86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +120,16 @@
 		C73BBFC929C8E76D002C6A86 /* SwiftySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITests.swift; sourceTree = "<group>"; };
 		C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C73BBFD829C8E9CF002C6A86 /* day-1-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-1-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C77991BB29E0867100216411 /* LayoutAndGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAndGeometry.swift; sourceTree = "<group>"; };
+		C77991BE29E1064000216411 /* SnowSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeeker.swift; sourceTree = "<group>"; };
+		C77991C029E1065100216411 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		C77991C229E106A300216411 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		C77991C429E10A0C00216411 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C77991C629E10BC100216411 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		C77991C829E10C2400216411 /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		C77991CA29E10C6C00216411 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+		C77991CC29E10EF600216411 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		C77991CE29E1103400216411 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		C78D5A0429D66253005DE528 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		C78D5A0629D6629C005DE528 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		C78D5A0929D66698005DE528 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
@@ -139,6 +172,10 @@
 		C7AE559029DBD4CE00D5F5A1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		C7AE559229DBD61100D5F5A1 /* BucketList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BucketList-ViewModel.swift"; sourceTree = "<group>"; };
 		C7AE559429DBD77300D5F5A1 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		C7AF157729DFC362000FE195 /* Flashzilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashzilla.swift; sourceTree = "<group>"; };
+		C7AF157929E06A44000FE195 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C7AF157B29E06A5D000FE195 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C7AF157D29E0750F000FE195 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		C7D443D329CA3D1300ADC9F3 /* day-4-5-6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-4-5-6.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7D443D429CBA76200ADC9F3 /* day-7-8-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-7-8-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C7FEB5E829CCE4550033DA2B /* day-10-11-12.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-10-11-12.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -161,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AF157529DFA71F000FE195 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +219,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C732B90029DE1D110042B318 /* HotProspects */ = {
+			isa = PBXGroup;
+			children = (
+				C732B90129DE1D220042B318 /* HotProspects.swift */,
+				C732B90329DF36890042B318 /* ProspectsView.swift */,
+				C732B90729DF387C0042B318 /* Prospect.swift */,
+				C732B90529DF368E0042B318 /* MeView.swift */,
+			);
+			name = HotProspects;
+			sourceTree = "<group>";
+		};
 		C73BBFA229C8E76A002C6A86 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +253,10 @@
 		C73BBFAD29C8E76A002C6A86 /* SwiftySwift */ = {
 			isa = PBXGroup;
 			children = (
+				C77991BD29E1062C00216411 /* SnowSeeker */,
+				C77991BA29E0866400216411 /* LayoutAndGeometry */,
+				C7AF157629DFC354000FE195 /* Flashzilla */,
+				C732B90029DE1D110042B318 /* HotProspects */,
 				C7AE558729DB8C3800D5F5A1 /* BucketList */,
 				C7AE558629DB75A400D5F5A1 /* Info.plist */,
 				C7AE557F29DA7D8200D5F5A1 /* Instafilter */,
@@ -252,6 +305,30 @@
 				C73BBFCB29C8E76D002C6A86 /* SwiftySwiftUITestsLaunchTests.swift */,
 			);
 			path = SwiftySwiftUITests;
+			sourceTree = "<group>";
+		};
+		C77991BA29E0866400216411 /* LayoutAndGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				C77991BB29E0867100216411 /* LayoutAndGeometry.swift */,
+			);
+			name = LayoutAndGeometry;
+			sourceTree = "<group>";
+		};
+		C77991BD29E1062C00216411 /* SnowSeeker */ = {
+			isa = PBXGroup;
+			children = (
+				C77991C029E1065100216411 /* resorts.json */,
+				C77991C229E106A300216411 /* Resort.swift */,
+				C77991BE29E1064000216411 /* SnowSeeker.swift */,
+				C77991C829E10C2400216411 /* SkiDetailsView.swift */,
+				C77991CA29E10C6C00216411 /* ResortDetailsView.swift */,
+				C77991C629E10BC100216411 /* ResortView.swift */,
+				C77991CC29E10EF600216411 /* Facility.swift */,
+				C77991CE29E1103400216411 /* Favorites.swift */,
+				C77991C429E10A0C00216411 /* WelcomeView.swift */,
+			);
+			name = SnowSeeker;
 			sourceTree = "<group>";
 		};
 		C78D5A0829D662E1005DE528 /* iExpense */ = {
@@ -345,6 +422,17 @@
 			name = BucketList;
 			sourceTree = "<group>";
 		};
+		C7AF157629DFC354000FE195 /* Flashzilla */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF157729DFC362000FE195 /* Flashzilla.swift */,
+				C7AF157929E06A44000FE195 /* Card.swift */,
+				C7AF157B29E06A5D000FE195 /* CardView.swift */,
+				C7AF157D29E0750F000FE195 /* EditCards.swift */,
+			);
+			name = Flashzilla;
+			sourceTree = "<group>";
+		};
 		C7FEB63C29D4D9B40033DA2B /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +462,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C73BBFCF29C8E76D002C6A86 /* Build configuration list for PBXNativeTarget "SwiftySwift" */;
 			buildPhases = (
+				C732B8FE29DCD9930042B318 /* ShellScript */,
 				C73BBFA729C8E76A002C6A86 /* Sources */,
 				C73BBFA829C8E76A002C6A86 /* Frameworks */,
 				C73BBFA929C8E76A002C6A86 /* Resources */,
@@ -383,6 +472,9 @@
 			dependencies = (
 			);
 			name = SwiftySwift;
+			packageProductDependencies = (
+				C7AF157429DFA71F000FE195 /* CodeScanner */,
+			);
 			productName = SwiftySwift;
 			productReference = C73BBFAB29C8E76A002C6A86 /* SwiftySwift.app */;
 			productType = "com.apple.product-type.application";
@@ -455,6 +547,9 @@
 				Base,
 			);
 			mainGroup = C73BBFA229C8E76A002C6A86;
+			packageReferences = (
+				C7AF157329DFA71F000FE195 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = C73BBFAC29C8E76A002C6A86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -471,6 +566,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77991C129E1065100216411 /* resorts.json in Resources */,
 				C7FEB63929D4B1860033DA2B /* BetterRest.csv in Resources */,
 				C73BBFB629C8E76C002C6A86 /* Preview Assets.xcassets in Resources */,
 				C7FEB63529D4B1650033DA2B /* start.txt in Resources */,
@@ -496,6 +592,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C732B8FE29DCD9930042B318 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"Hello Hello\"\n\nmkdir \"${SRCROOT}/Pods\"\nmkdir \"${SRCROOT}/Pods/aTest\"\nrm -rf \"${SRCROOT}/Pods/GoogleDataTransport\"\nmkdir \"${SRCROOT}/Pods/GoogleDataTransport\"\n\necho \"GoogleDataTransport Replaced!\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C73BBFA729C8E76A002C6A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -504,13 +620,18 @@
 				C78D5A0A29D66698005DE528 /* AddView.swift in Sources */,
 				C7AE556E29DA6DAB00D5F5A1 /* Singer+CoreDataProperties.swift in Sources */,
 				C7AE558929DB8C4400D5F5A1 /* BucketList.swift in Sources */,
+				C77991C729E10BC100216411 /* ResortView.swift in Sources */,
 				C7AE555B29D9BBB800D5F5A1 /* Bookworm.xcdatamodeld in Sources */,
 				C78D5A0D29D67F40005DE528 /* Moonshot.swift in Sources */,
+				C77991C529E10A0C00216411 /* WelcomeView.swift in Sources */,
 				C7AE556129D9C83E00D5F5A1 /* RatingView.swift in Sources */,
+				C77991C329E106A300216411 /* Resort.swift in Sources */,
 				C7AE559129DBD4CF00D5F5A1 /* Result.swift in Sources */,
+				C7AF157C29E06A5D000FE195 /* CardView.swift in Sources */,
 				C7AE555F29D9C19A00D5F5A1 /* AddBookView.swift in Sources */,
 				C7AE557229DA6E5B00D5F5A1 /* FilteredList.swift in Sources */,
 				C7AE558529DB741300D5F5A1 /* ImageSaver.swift in Sources */,
+				C77991BC29E0867100216411 /* LayoutAndGeometry.swift in Sources */,
 				C7AE555529D9089400D5F5A1 /* CheckoutView.swift in Sources */,
 				C7AE556A29DA608200D5F5A1 /* Movie+CoreDataProperties.swift in Sources */,
 				C7AE556D29DA6DAB00D5F5A1 /* Singer+CoreDataClass.swift in Sources */,
@@ -520,13 +641,19 @@
 				C7AE559529DBD77300D5F5A1 /* FileManager-DocumentsDirectory.swift in Sources */,
 				C7FEB62329D366C70033DA2B /* WeSplit.swift in Sources */,
 				C7AE555329D907EA00D5F5A1 /* AddressView.swift in Sources */,
+				C77991CD29E10EF700216411 /* Facility.swift in Sources */,
+				C77991BF29E1064000216411 /* SnowSeeker.swift in Sources */,
 				C7AE555829D9292F00D5F5A1 /* Bookworm.swift in Sources */,
+				C7AF157829DFC362000FE195 /* Flashzilla.swift in Sources */,
 				C78D5A0729D6629C005DE528 /* Expenses.swift in Sources */,
 				C7AE554629D73DFA00D5F5A1 /* Mission.swift in Sources */,
+				C7AF157A29E06A44000FE195 /* Card.swift in Sources */,
+				C732B90229DE1D220042B318 /* HotProspects.swift in Sources */,
 				C7AE554C29D756F800D5F5A1 /* AstronautView.swift in Sources */,
 				C7AE554429D73A9D00D5F5A1 /* Bundle-Decodable.swift in Sources */,
 				C7FEB62729D3805C0033DA2B /* PracticeUI.swift in Sources */,
 				C7AE557829DA73BC00D5F5A1 /* Country+CoreDataProperties.swift in Sources */,
+				C732B90629DF368E0042B318 /* MeView.swift in Sources */,
 				C7AE554A29D74E8300D5F5A1 /* MissionView.swift in Sources */,
 				C7FEB62929D390C80033DA2B /* ViewsAndModifiers.swift in Sources */,
 				C7AE559329DBD61100D5F5A1 /* BucketList-ViewModel.swift in Sources */,
@@ -540,9 +667,15 @@
 				C7AE558329DB490300D5F5A1 /* ImagePicker.swift in Sources */,
 				C7AE555D29D9BC1200D5F5A1 /* DataController.swift in Sources */,
 				C7AE556529D9E60A00D5F5A1 /* DetailView.swift in Sources */,
+				C732B90429DF36890042B318 /* ProspectsView.swift in Sources */,
+				C77991CF29E1103400216411 /* Favorites.swift in Sources */,
 				C7AE554F29D778FF00D5F5A1 /* CupcakeCorner.swift in Sources */,
+				C732B90829DF387C0042B318 /* Prospect.swift in Sources */,
 				C7FEB63B29D4D6390033DA2B /* Animations.swift in Sources */,
 				C7AE557729DA73BC00D5F5A1 /* Country+CoreDataClass.swift in Sources */,
+				C7AF157E29E0750F000FE195 /* EditCards.swift in Sources */,
+				C77991CB29E10C6C00216411 /* ResortDetailsView.swift in Sources */,
+				C77991C929E10C2400216411 /* SkiDetailsView.swift in Sources */,
 				C7FEB62529D367980033DA2B /* GuessTheFlag.swift in Sources */,
 				C7AE555129D8A5E300D5F5A1 /* Order.swift in Sources */,
 				C7FEB63829D4B1860033DA2B /* SleepCalculator.mlmodel in Sources */,
@@ -713,6 +846,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftySwift/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan QR code";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Hello Face ID";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Hola Photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -746,6 +880,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftySwift/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan QR code";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Hello Face ID";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Hola Photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -883,6 +1018,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7AF157329DFA71F000FE195 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7AF157429DFA71F000FE195 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7AF157329DFA71F000FE195 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C7AE555929D9BBB800D5F5A1 /* Bookworm.xcdatamodeld */ = {

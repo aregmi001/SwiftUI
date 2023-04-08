@@ -624,3 +624,123 @@ struct Instafilter99: View {
         image = Image(uiImage: inputImage)
     }
 }
+
+
+/*
+
+ View Hierarchy :
+            HotProspects
+                -> ChildView1
+                    -> ChildView2
+                        -> ChildView3
+
+ Pass 'scoreObsObj' to all child view 3 levels and Edit from ChildView3
+ Pass 'userEnvObj' to all child view 3 levels and Edit from ChildView2
+
+ */
+
+@MainActor class ScoreObsObj: ObservableObject {
+    @Published var score = 0
+}
+
+@MainActor class UserEnvObj: ObservableObject {
+    @Published var name = "Taylor Swift"
+}
+
+struct ChildView3: View {
+
+    @EnvironmentObject var userEnvObj: UserEnvObj
+    @ObservedObject var scoreObsObj: ScoreObsObj
+
+    var body: some View {
+
+        VStack {
+            Text("ChildView3 \(userEnvObj.name)")
+            Text("ChildView3 score = \(scoreObsObj.score)")
+        }
+        .padding()
+        .background(.green)
+        .foregroundColor(.white)
+        .onAppear(perform: updateScore)
+        .onTapGesture { updateScore() }
+    }
+
+    func updateScore() {
+        scoreObsObj.score = Int.random(in: 0...6)
+    }
+}
+
+struct ChildView2: View {
+    @EnvironmentObject var userEnvObj: UserEnvObj
+    @ObservedObject var scoreObsObj: ScoreObsObj
+
+    var body: some View {
+        VStack {
+            Text("ChildView2 \(userEnvObj.name)")
+            ChildView3(scoreObsObj: scoreObsObj)
+            TextField("Type Name", text: $userEnvObj.name)
+        }
+        .padding()
+        .background(.blue)
+        .foregroundColor(.white)
+    }
+}
+
+struct ChildView1: View {
+
+    @ObservedObject var scoreObsObj: ScoreObsObj
+
+    var body: some View {
+
+        VStack {
+            Text("ChildView1 (score = \(scoreObsObj.score) )")
+            ChildView2(scoreObsObj: scoreObsObj)
+        }
+        .padding()
+        .background(.red)
+        .foregroundColor(.white)
+    }
+}
+
+struct HotProspects99: View {
+
+    @StateObject private var userEnvObj = UserEnvObj()
+    @StateObject var scoreObsObj = ScoreObsObj()
+
+    var body: some View {
+        VStack {
+            ChildView1(scoreObsObj: scoreObsObj)
+        }
+        .padding()
+        .environmentObject(userEnvObj)
+    }
+}
+
+
+/* Manually publishing ObservableObject changes */
+
+@MainActor class DelayedUpdater: ObservableObject {
+
+    var value = 0 {
+        willSet {
+            /* do more things here before sending update */
+            objectWillChange.send()
+        }
+    }
+
+    init() {
+        for i in 1...10 {
+            DispatchQueue.main.asyncAfter(deadline: .now() + Double(i)) {
+                self.value += 1
+            }
+        }
+    }
+}
+
+struct HotProspects999: View {
+    @StateObject var updater = DelayedUpdater()
+
+    var body: some View {
+        Text("Value is: \(updater.value)")
+    }
+}

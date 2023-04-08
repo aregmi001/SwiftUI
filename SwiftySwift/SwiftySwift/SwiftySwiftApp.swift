@@ -14,7 +14,7 @@ struct SwiftySwiftApp: App {
 
     var body: some Scene {
         WindowGroup {
-            BucketList()
+            SnowSeeker()
                 .environment(\.managedObjectContext, dataController.coreDataContainer.viewContext)
         }
     }
