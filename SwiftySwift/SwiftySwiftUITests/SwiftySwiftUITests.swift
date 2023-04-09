@@ -5,6 +5,9 @@
 //  Created by Amit on 2023-03-20.
 //
 
+import SwiftUI
+import ViewInspector
+@testable import SwiftySwift
 import XCTest
 
 final class SwiftySwiftUITests: XCTestCase {

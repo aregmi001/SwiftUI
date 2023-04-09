@@ -27,12 +27,14 @@ struct BetterRest: View {
                     .font(.headline)
 
                 DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
-                    .labelsHidden()
+                    .accessibilityIdentifier("datePicker")
+                    //.labelsHidden()
 
 
                 Section("Desired amount of sleep") {
 
                     Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
+                        .accessibilityIdentifier("desiredSleepStepper")
                 }
 
 //                VStack(alignment: .leading, spacing: 0) {
@@ -47,6 +49,7 @@ struct BetterRest: View {
                     .font(.headline)
 
                 Stepper(coffeeAmount == 1 ? "1 cup" : "\(coffeeAmount) cups", value: $coffeeAmount, in: 1...20)
+                    .accessibilityIdentifier("coffeeIntakeStepper")
             }
             .alert(alertTitle, isPresented: $showingAlert) {
                 Button("OK") { }
@@ -57,6 +60,7 @@ struct BetterRest: View {
             .navigationTitle("BetterRest")
             .toolbar {
                 Button("Calculate", action: calculateBedtime)
+                    .accessibilityIdentifier("calculateButton")
             }
         }
 
